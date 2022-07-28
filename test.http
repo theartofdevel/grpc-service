@@ -1,0 +1,12 @@
+###
+
+GET http://localhost:8081/v1/get-users
+
+###
+
+PATCH http://localhost:8081/v1/update-user/123
+Content-Type: application/json
+
+{
+  "email": "ok@mail.com"
+}
